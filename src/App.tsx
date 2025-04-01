@@ -4,6 +4,10 @@
 import './App.css'
 import Title from "./title.tsx";
 import Intro from "./intro.tsx";
+import Hobby1 from "./hobby1.tsx";
+import List1 from "./list1.tsx";
+import Table1 from "./table1.tsx";
+import Form1 from "./form.tsx";
 
     function App() {
       //const [count, setCount] = useState(0)
@@ -12,6 +16,10 @@ import Intro from "./intro.tsx";
                     <Title/>
                     <Intro name1 = "Amanda"
                            name2 = "Katherine"/>
+                    <Hobby1 />
+                    <List1 />
+                    <Table1 />
+                    <Form1 />
                 </>
             );
     }
