@@ -1,0 +1,9 @@
+ol, li{
+    color: darkmagenta;
+    list-style: decimal inside none;
+}
+
+h3 {
+    color: darkmagenta;
+    background-color: mistyrose;
+}

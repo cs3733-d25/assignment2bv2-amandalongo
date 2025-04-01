@@ -1,8 +1,10 @@
+import './list.css'
+
 export default function List1(){
     return (
         <div className={"amandasList"}>
             <hr/>
-            <h2><b>5 reasons why I love doing nails:</b></h2>
+            <h3><b>5 reasons why I love doing nails:</b></h3>
             <ol>
                 <li>It adds to my style in terms of fashion</li>
                 <li>Its really theraputic for me, I like watching tv while doing them</li>

@@ -1,7 +1,7 @@
 export default function Form2() {
     return (
         <>
-        <h3>Interested in Ballroom Dance?</h3>
+        <h2>Interested in Ballroom Dance?</h2>
             <p>
                 If you are interested in learning how to ballroom dance, fill out this form to join the
                 WPI Ballroom Dance Team email alias and answer a few information questions!
