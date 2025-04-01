@@ -1,6 +1,7 @@
 export default function List1(){
     return (
         <div className={"amandasList"}>
+            <hr/>
             <h2><b>5 reasons why I love doing nails:</b></h2>
             <ol>
                 <li>It adds to my style in terms of fashion</li>
@@ -9,7 +10,6 @@ export default function List1(){
                 <li>It is so versatile! I can make press ons and then reuse them</li>
                 <li>It saves me money and I love getting compliments on them</li>
             </ol>
-            <hr/>
         </div>
     );
 }

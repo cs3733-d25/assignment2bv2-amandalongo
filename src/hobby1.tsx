@@ -1,7 +1,7 @@
 export default function Hobby1() {
     return (
         <div className={"amandasHobby"}>
-            <h1>Amanda's Nail Art</h1>
+            <h2>Amanda's Nail Art</h2>
             <p>Hi! My name is Amanda, and I am a sophomore studying computer science with a minor in media art.</p>
             <p>One of my favorite hobbies is doing <b>nail art</b>! I use gel-x nails and I design press ons as well as
                 doing my friends nails.

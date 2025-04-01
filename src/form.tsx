@@ -1,5 +1,5 @@
-export default function Form1(){
-    return(
+export default function Form1() {
+    return (
         <div>
             <h2>Request Press on Nails!</h2>
             <b>Do you want me to make you a set of press ons? Fill out the form below!</b>
@@ -35,9 +35,10 @@ export default function Form1(){
                 <br/><br/>
                 <label htmlFor="comments">Enter a detailed description of the design you want and any comments:</label>
                 <br/><br/>
-                <textarea rows={2} cols={5} id="comments"></textarea>
+                <textarea rows={4} cols={40} id="comments"></textarea>
                 <br/><br/>
                 <label htmlFor="Nail Designs">Choose a nail design</label>
+                <br/>
                 <select name="Nail Designs" id="Nail Designs">
                     <option value="choose">Basic color</option>
                     <option value="choose">French Tip</option>
@@ -47,10 +48,10 @@ export default function Form1(){
                 </select>
                 <br/>
                 <p>Submit your request!</p>
-                <br/>
                 <input type="submit" value="Submit" id="submit button"/>
                 <br/>
             </form>
+            <hr/>
         </div>
     );
 }
